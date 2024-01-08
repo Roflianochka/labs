@@ -1,0 +1,50 @@
+[
+  {
+    "week": 1,
+    "day": "Понедельник",
+    "commission": "Коммисия 1",
+    "details": "Inspection details for Monday in Week 1"
+  },
+  {
+    "week": 2,
+    "day": "Вторник",
+    "commission": "Коммисия 1",
+    "details": "Inspection details for Wednesday in Week 2"
+  },
+  {
+    "week": 3,
+    "day": "Среда",
+    "commission": "Коммисия 2",
+    "details": "Inspection details for Friday in Week 3"
+  },
+  {
+    "week": 4,
+    "day": "Четверг",
+    "commission": "Коммисия 2",
+    "details": "Inspection details for Tuesday in Week 4"
+  },
+  {
+    "week": 1,
+    "day": "Пятница",
+    "commission": "Коммисия 1",
+    "details": "Inspection details for Thursday in Week 1"
+  },
+  {
+    "week": 2,
+    "day": "Суббота",
+    "commission": "Коммисия 2",
+    "details": "Inspection details for Sunday in Week 2"
+  },
+  {
+    "week": 3,
+    "day": "Понедельник",
+    "commission": "Коммисия 2",
+    "details": "Inspection details for Monday in Week 3"
+  },
+  {
+    "week": 4,
+    "day": "Воскресенье",
+    "commission": "Коммисия 1",
+    "details": "Inspection details for Saturday in Week 4"
+  }
+]
