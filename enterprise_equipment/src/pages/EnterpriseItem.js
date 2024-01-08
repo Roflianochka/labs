@@ -1,6 +1,6 @@
 import React from "react";
 import PopupMenu from "../components/PopupMenu";
-import "../styles/EnterpriseItem.css"; // Import the corresponding CSS file
+import "../styles/EnterpriseItem.css";
 
 const EnterpriseItem = ({ enterprise }) => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import inspectionsData from "../jsons/InspectionsData.json";
-import "../styles/CheckSchedule.css"; // Import the CSS file
+import "../styles/CheckSchedule.css";
 
 const CheckShedule = () => {
   const [inspections, setInspections] = useState([]);

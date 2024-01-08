@@ -8,7 +8,7 @@
 }
 
 .app-title {
-  margin: 0; /* Remove default margin for h1 */
+  margin: 0;
 }
 
 ul {
@@ -27,7 +27,6 @@ a {
   color: #fff;
 }
 
-/* Add hover effect for links if desired */
 a:hover {
   text-decoration: underline;
 }

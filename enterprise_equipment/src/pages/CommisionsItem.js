@@ -18,37 +18,37 @@ const CommisionsItem = ({
   };
 
   const handleAddMemberClick = () => {
-    setIsAddMemberPopupOpen(true); // Open the popup for adding a new member
+    setIsAddMemberPopupOpen(true);
   };
 
   const handleEditMemberClick = (member) => {
     setSelectedMember(member);
-    setIsEditMemberPopupOpen(true); // Open the popup for editing the member
+    setIsEditMemberPopupOpen(true);
   };
 
   const handleDeleteMemberClick = (member) => {
     onMemberDelete(commission.id, member.id);
-    setSelectedMember(null); // Reset selected member after deletion
+    setSelectedMember(null);
   };
 
   const handleMemberFormSubmit = (updatedMember) => {
     if (selectedMember) {
       onMemberEdit(commission.id, selectedMember.id, updatedMember);
-      setIsEditMemberPopupOpen(false); // Close the popup after editing
+      setIsEditMemberPopupOpen(false);
     } else {
       onMemberAdd(commission.id, updatedMember);
-      setIsAddMemberPopupOpen(false); // Close the popup after adding
+      setIsAddMemberPopupOpen(false);
     }
 
     setSelectedMember(null);
   };
 
   const handleAddMemberPopupClose = () => {
-    setIsAddMemberPopupOpen(false); // Close the popup for adding a new member
+    setIsAddMemberPopupOpen(false);
   };
 
   const handleEditMemberPopupClose = () => {
-    setIsEditMemberPopupOpen(false); // Close the popup for editing the member
+    setIsEditMemberPopupOpen(false);
   };
 
   return (
