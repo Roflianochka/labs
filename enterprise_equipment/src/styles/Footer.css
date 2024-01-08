@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  max-height: 150px;
+}
+
+.footer_contact-info,
+.footer_about-us,
+.footer_social-links {
+  margin-bottom: 20px;
+  margin-right: 45px;
+}
+
+.footer-a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-a:hover {
+  text-decoration: underline;
+}
