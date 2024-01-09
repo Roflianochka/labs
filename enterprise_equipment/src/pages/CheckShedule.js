@@ -55,6 +55,7 @@ const CheckShedule = () => {
     if (inspection) {
       return (
         <div>
+          <p className="company-name">Предприятие: {inspection.company}</p>
           <p className="commission">Коммисия: {inspection.commission}</p>
           <p className="details">Детали: {inspection.details}</p>
         </div>
@@ -66,7 +67,7 @@ const CheckShedule = () => {
 
   return (
     <div>
-      <h2 className="schedule-heading">Schedule of Inspections</h2>
+      <h2 className="schedule-heading">График проверок</h2>
       {renderTable()}
     </div>
   );

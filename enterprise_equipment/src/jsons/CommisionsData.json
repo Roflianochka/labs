@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Commission A",
+    "name": "Коммисия 1",
     "members": [
       {
         "id": 101,
@@ -9,7 +9,7 @@
         "name": "John",
         "surname": "Doe",
         "phone": "123-456-7890",
-        "experience": "5 years"
+        "experience": "5 лет"
       },
       {
         "id": 102,
@@ -17,13 +17,13 @@
         "name": "Jane",
         "surname": "Smith",
         "phone": "987-654-3210",
-        "experience": "3 years"
+        "experience": "3 года"
       }
     ]
   },
   {
     "id": 2,
-    "name": "Commission B",
+    "name": "Коммисия 2",
     "members": [
       {
         "id": 201,
@@ -31,7 +31,7 @@
         "name": "Bob",
         "surname": "Johnson",
         "phone": "555-123-4567",
-        "experience": "8 years"
+        "experience": "8 лет"
       },
       {
         "id": 202,
@@ -39,7 +39,7 @@
         "name": "Alice",
         "surname": "Williams",
         "phone": "111-222-3333",
-        "experience": "2 years"
+        "experience": "2 года"
       }
     ]
   }
